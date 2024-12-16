@@ -18,3 +18,7 @@ struct GetItemResponse {
 
     255: base.BaseResp baseResp
 }
+
+service ItemService {
+    GetItemResponse GetItem(1: GetItemRequest req)
+}
